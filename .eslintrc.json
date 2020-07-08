@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "react": {
+      "version": "16.13.1"
+    }
+  },
+  "extends": ["airbnb-base", "prettier", "eslint:recommended", "plugin:react/recommended"],
+  "plugins": ["prettier", "react"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "object-shorthand": "off",
+    "class-methods-use-this": "off",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}

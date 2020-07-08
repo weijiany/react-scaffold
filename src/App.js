@@ -1,4 +1,6 @@
 import React from 'react'
 import './style/app.scss'
 
-export default () => <h1>hello world</h1>
+const App = () => <h1>hello world</h1>
+
+export default App
